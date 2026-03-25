@@ -19,11 +19,6 @@ module.exports = [
                 'error',
                 {props: true, ignorePropertyModificationsFor: ['req', 'res', 'next']}
             ],
-
-            'no-restricted-syntax': [
-                'error',
-                {selector: 'ExportDefaultDeclaration', message: 'Prefer named exports'}
-            ],
         },
     },
 ];

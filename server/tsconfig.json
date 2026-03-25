@@ -9,6 +9,12 @@
     "moduleResolution": "bundler",
     "rootDir": "./",
     "outDir": "./build",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

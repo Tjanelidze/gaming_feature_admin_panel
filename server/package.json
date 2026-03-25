@@ -5,14 +5,16 @@
   "main": "build/server.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch server.ts & tsc --noEmit --watch",
+    "dev": "tsx watch --tsconfig tsconfig.json server.ts & tsc --noEmit --watch",
     "build": "eslint . --ext .ts && tsc",
     "start": "node build/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
@@ -20,6 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^8.57.2",
     "@typescript-eslint/parser": "^8.57.2",
     "eslint": "^10.1.0",
+    "tsconfig-paths": "^4.2.0",
     "tsx": "^4.21.0",
     "typescript": "^5.8.3"
   }
