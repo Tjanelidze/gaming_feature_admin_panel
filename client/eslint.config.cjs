@@ -33,11 +33,6 @@ export default defineConfig([
                 'error',
                 {props: true, ignorePropertyModificationsFor: ['error', {props: true}]}
             ],
-
-            'no-restricted-syntax': [
-                'error',
-                {selector: 'ExportDefaultDeclaration', message: 'Prefer named exports'}
-            ],
         },
     },
 ]);
