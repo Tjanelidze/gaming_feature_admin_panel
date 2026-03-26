@@ -1,0 +1,234 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Lucky Spinner",
+    "description": "Our flagship daily spin wheel for all players.",
+    "status": "active",
+    "segments": [
+      {
+        "id": "s1a2b3c4-0000-0000-0000-000000000001",
+        "label": "Jackpot",
+        "color": "#e74c3c",
+        "weight": 10,
+        "prizeType": "coins",
+        "prizeAmount": 500,
+        "imageUrl": "https://picsum.photos/seed/jackpot/64/64"
+      },
+      {
+        "id": "s1a2b3c4-0000-0000-0000-000000000002",
+        "label": "Free Spin",
+        "color": "#3498db",
+        "weight": 20,
+        "prizeType": "freeSpin",
+        "prizeAmount": 1,
+        "imageUrl": "https://picsum.photos/seed/freespin/64/64"
+      },
+      {
+        "id": "s1a2b3c4-0000-0000-0000-000000000003",
+        "label": "Bonus",
+        "color": "#9b59b6",
+        "weight": 20,
+        "prizeType": "bonus",
+        "prizeAmount": 50,
+        "imageUrl": "https://picsum.photos/seed/bonus/64/64"
+      },
+      {
+        "id": "s1a2b3c4-0000-0000-0000-000000000004",
+        "label": "Nothing",
+        "color": "#555555",
+        "weight": 50,
+        "prizeType": "nothing",
+        "prizeAmount": 0,
+        "imageUrl": ""
+      }
+    ],
+    "maxSpinsPerUser": 3,
+    "spinCost": 10,
+    "backgroundColor": "#1a1a2e",
+    "borderColor": "#00e676",
+    "createdAt": "2026-03-01T10:00:00.000Z",
+    "updatedAt": "2026-03-01T10:00:00.000Z"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "name": "Weekend Wheel",
+    "description": "Special weekend wheel with bigger prizes.",
+    "status": "draft",
+    "segments": [
+      {
+        "id": "s2a2b3c4-0000-0000-0000-000000000001",
+        "label": "500 Coins",
+        "color": "#f39c12",
+        "weight": 15,
+        "prizeType": "coins",
+        "prizeAmount": 500,
+        "imageUrl": "https://picsum.photos/seed/coins500/64/64"
+      },
+      {
+        "id": "s2a2b3c4-0000-0000-0000-000000000002",
+        "label": "100 Coins",
+        "color": "#e67e22",
+        "weight": 35,
+        "prizeType": "coins",
+        "prizeAmount": 100,
+        "imageUrl": "https://picsum.photos/seed/coins100/64/64"
+      },
+      {
+        "id": "s2a2b3c4-0000-0000-0000-000000000003",
+        "label": "Free Spin",
+        "color": "#1abc9c",
+        "weight": 25,
+        "prizeType": "freeSpin",
+        "prizeAmount": 1,
+        "imageUrl": "https://picsum.photos/seed/fs2/64/64"
+      },
+      {
+        "id": "s2a2b3c4-0000-0000-0000-000000000004",
+        "label": "Nothing",
+        "color": "#7f8c8d",
+        "weight": 25,
+        "prizeType": "nothing",
+        "prizeAmount": 0,
+        "imageUrl": ""
+      }
+    ],
+    "maxSpinsPerUser": 1,
+    "spinCost": 5,
+    "backgroundColor": "#0d0d0d",
+    "borderColor": "#f39c12",
+    "createdAt": "2026-03-10T08:00:00.000Z",
+    "updatedAt": "2026-03-10T08:00:00.000Z"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "name": "VIP Spinner",
+    "description": "Exclusive high-stakes wheel for VIP players only.",
+    "status": "inactive",
+    "segments": [
+      {
+        "id": "s3a2b3c4-0000-0000-0000-000000000001",
+        "label": "Mega Prize",
+        "color": "#c0392b",
+        "weight": 5,
+        "prizeType": "coins",
+        "prizeAmount": 2000,
+        "imageUrl": "https://picsum.photos/seed/mega/64/64"
+      },
+      {
+        "id": "s3a2b3c4-0000-0000-0000-000000000002",
+        "label": "Bonus",
+        "color": "#8e44ad",
+        "weight": 15,
+        "prizeType": "bonus",
+        "prizeAmount": 200,
+        "imageUrl": "https://picsum.photos/seed/vipbonus/64/64"
+      },
+      {
+        "id": "s3a2b3c4-0000-0000-0000-000000000003",
+        "label": "Free Spins",
+        "color": "#2980b9",
+        "weight": 20,
+        "prizeType": "freeSpin",
+        "prizeAmount": 3,
+        "imageUrl": "https://picsum.photos/seed/vipfs/64/64"
+      },
+      {
+        "id": "s3a2b3c4-0000-0000-0000-000000000004",
+        "label": "Nothing",
+        "color": "#2c3e50",
+        "weight": 60,
+        "prizeType": "nothing",
+        "prizeAmount": 0,
+        "imageUrl": ""
+      }
+    ],
+    "maxSpinsPerUser": 5,
+    "spinCost": 25,
+    "backgroundColor": "#0a0a0a",
+    "borderColor": "#c0392b",
+    "createdAt": "2026-03-15T12:00:00.000Z",
+    "updatedAt": "2026-03-20T14:32:00.000Z"
+  },
+  {
+    "id": "c9e882e4-fb59-4717-b320-18abc10f8bf4",
+    "name": "daily something",
+    "description": "Spin once a day for a chance to win.",
+    "status": "active",
+    "segments": [
+      {
+        "id": "s1-0001",
+        "label": "100 Coins",
+        "color": "#f1c40f",
+        "weight": 30,
+        "prizeType": "coins",
+        "prizeAmount": 100,
+        "imageUrl": ""
+      },
+      {
+        "id": "s1-0002",
+        "label": "Free Spin",
+        "color": "#2ecc71",
+        "weight": 20,
+        "prizeType": "freeSpin",
+        "prizeAmount": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "s1-0003",
+        "label": "Nothing",
+        "color": "#95a5a6",
+        "weight": 50,
+        "prizeType": "nothing",
+        "prizeAmount": 0,
+        "imageUrl": ""
+      }
+    ],
+    "maxSpinsPerUser": 1,
+    "spinCost": 0,
+    "backgroundColor": "#1a1a2e",
+    "borderColor": "#f1c40f",
+    "createdAt": "2026-03-26T16:55:29.587Z",
+    "updatedAt": "2026-03-26T20:12:25.183Z"
+  },
+  {
+    "id": "5b690299-4f42-4569-8285-901daf3dc56f",
+    "name": "Daily Spinner",
+    "description": "Spin once a day for a chance to win.",
+    "status": "active",
+    "segments": [
+      {
+        "label": "100 Coins",
+        "color": "#f1c40f",
+        "weight": 30,
+        "prizeType": "coins",
+        "prizeAmount": 100,
+        "imageUrl": "",
+        "id": "9322d766-d5b9-4bc5-8e54-9e3967a63fb2"
+      },
+      {
+        "label": "Free Spin",
+        "color": "#2ecc71",
+        "weight": 20,
+        "prizeType": "freeSpin",
+        "prizeAmount": 1,
+        "imageUrl": "",
+        "id": "fb742039-9b77-4c54-871c-c7dd66dbf1ea"
+      },
+      {
+        "label": "Nothing",
+        "color": "#95a5a6",
+        "weight": 50,
+        "prizeType": "nothing",
+        "prizeAmount": 0,
+        "imageUrl": "",
+        "id": "6aacaf9d-4690-470e-8f61-9d8ddc5b1cb8"
+      }
+    ],
+    "maxSpinsPerUser": 1,
+    "spinCost": 0,
+    "backgroundColor": "#1a1a2e",
+    "borderColor": "#f1c40f",
+    "createdAt": "2026-03-26T17:34:23.476Z",
+    "updatedAt": "2026-03-26T17:34:23.476Z"
+  }
+]
