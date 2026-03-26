@@ -1,6 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import routes from "@/routes";
+import {routeConfig} from "@/config/route.config";
+import errorHandler from "@/middleware/errorHandler";
 
 dotenv.config();
 
@@ -11,7 +13,10 @@ app.set('trust proxy', 1);
 app.use(express.json());
 
 // 2. ROUTES
-app.use('/api/v1', routes);
+app.use(routeConfig.api, routes);
+
+// 3. ERROR HANDLING
+app.use(errorHandler);
 
 
 export default app;
