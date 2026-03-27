@@ -7,8 +7,8 @@ import catchAsync from "@/utils/catchAsync";
 const router = express.Router();
 
 router.get('/', catchAsync(wheelsController.getAllWheels));
-router.get('/:id', catchAsync(wheelsController.getWheel));
 router.post('/', validate(createWheelSchema), catchAsync(wheelsController.createWheel));
+router.get('/:id', catchAsync(wheelsController.getWheel));
 router.patch('/:id', validate(updateWheelSchema), catchAsync(wheelsController.updateWheel));
 router.delete('/:id', catchAsync(wheelsController.deleteWheel));
 

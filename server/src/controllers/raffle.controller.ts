@@ -103,7 +103,7 @@ export const getRaffle = async (
 ): Promise<Response | void> => {
     const {id} = req.params;
     const raffles = readDbFile<IRaffle[]>('raffles.json');
-    const raffle = raffles.find(w => w.id === id);
+    const raffle = raffles.find(r => r.id === id);
 
     if (!raffle) {
         return next(new AppError('No raffle found with that ID', 404));
