@@ -1,8 +1,8 @@
 export interface IWheel {
     id: string;
     name: string;
-    description: string;
-    status: 'draft' | 'active' | 'inactive';
+    description?: string;
+    status: WheelStatus;
     segments: WheelSegment[];
     maxSpinsPerUser: number;
     spinCost: number;
@@ -18,7 +18,7 @@ interface WheelSegment {
     color: string;
     prizeType: 'coins' | 'freeSpin' | 'bonus' | 'nothing';
     prizeAmount: number;
-    imageUrl: string;
+    imageUrl?: string;
 }
 
 export type WheelStatus = 'active' | 'inactive' | 'draft';
@@ -33,17 +33,6 @@ export type WheelQueryParams = {
     order?: SortOrder;
     status?: WheelStatus;
 };
-
-export type WheelReqBody = {
-    name: string
-    description: string
-    status: 'draft' | 'active' | 'inactive'
-    segments: WheelSegment[]
-    maxSpinsPerUser: number
-    spinCost: number
-    backgroundColor: string
-    borderColor: string
-}
 
 export type WheelParams = {
     id: string;

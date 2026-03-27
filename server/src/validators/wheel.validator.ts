@@ -3,12 +3,13 @@ import {z} from 'zod';
 const hexColor = z.string().regex(/^#[0-9a-fA-F]{6}$/, 'Must be a valid hex color');
 
 const segmentSchema = z.object({
+    id: z.string().optional(),
     label: z.string().min(1, 'Label is required'),
     color: hexColor,
     weight: z.number().positive(),
     prizeType: z.enum(['coins', 'bonus', 'freeSpin', 'nothing']),
     prizeAmount: z.number().min(0),
-    imageUrl: z.string().url().optional().or(z.literal('')),
+    imageUrl: z.url().optional().or(z.literal('')),
 }).refine(
     (s) => s.prizeType === 'nothing' ? s.prizeAmount === 0 : s.prizeAmount > 0,
     {message: 'prizeAmount must be 0 for nothing, and > 0 otherwise'}

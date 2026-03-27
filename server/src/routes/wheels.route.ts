@@ -1,7 +1,7 @@
 import express from "express";
-import * as wheelsController from "@/controllers/wheels.controller";
+import * as wheelsController from "@/controllers/wheel.controller";
 import {validate} from "@/middleware/validate.middleware";
-import {createWheelSchema, updateWheelSchema} from "@/validators/wheels.validator";
+import {createWheelSchema, updateWheelSchema} from "@/validators/wheel.validator";
 import catchAsync from "@/utils/catchAsync";
 
 const router = express.Router();

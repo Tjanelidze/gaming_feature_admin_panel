@@ -1,8 +1,9 @@
 import {NextFunction, Request, Response} from 'express';
 import {readDbFile, writeDbFile} from "@/utils/jsonDb";
-import {IWheel, WheelParams, WheelQueryParams, WheelReqBody} from "@/types/wheels.types";
-import {PAGINATION_DEFAULTS} from "@/constants/pagination.constants";
+import {IWheel, WheelParams, WheelQueryParams} from "@/types/wheel.types";
 import AppError from "@/utils/AppError";
+import {parsePagination, sortItems} from "@/utils/queryHelpers";
+import {WheelReqBody, WheelUpdateBody} from "@/validators/wheel.validator";
 
 export const getAllWheels = async (
     req: Request<unknown, unknown, unknown, WheelQueryParams>,
@@ -18,28 +19,14 @@ export const getAllWheels = async (
         order = 'desc',
     } = req.query;
 
-    const page = Math.max(1, parseInt(rawPage as string) || PAGINATION_DEFAULTS.DEFAULT_PAGE);
-    const limit = Math.min(
-        Math.max(1, parseInt(rawLimit as string) || PAGINATION_DEFAULTS.DEFAULT_LIMIT),
-        PAGINATION_DEFAULTS.MAX_LIMIT
-    );
-    const startIndex = (page - 1) * limit;
-    const filteredWheels = status
-        ? wheels.filter((w: IWheel) => w.status === status)
-        : wheels;
-    const sortedWheels = [...filteredWheels].sort((a: IWheel, b: IWheel) => {
-        const aVal = a[sortBy];
-        const bVal = b[sortBy];
+    const {page, limit, startIndex} = parsePagination(rawPage, rawLimit);
 
-        if (aVal < bVal) return order === 'asc' ? -1 : 1;
-        if (aVal > bVal) return order === 'asc' ? 1 : -1;
+    const filtered = status ? wheels.filter((r) => r.status === status) : wheels;
+    const sorted = sortItems(filtered, sortBy, order);
+    const paginated = sorted.slice(startIndex, startIndex + limit);
 
-        return 0;
-    });
-
-    const paginatedWheels = sortedWheels.slice(startIndex, startIndex + limit);
-    const total = filteredWheels.length;
-    const totalPages = Math.ceil(filteredWheels.length / limit);
+    const total = filtered.length;
+    const totalPages = Math.ceil(total / limit);
 
     return res.status(200).json({
         status: 'success',
@@ -48,7 +35,7 @@ export const getAllWheels = async (
         page,
         limit,
         data: {
-            wheels: paginatedWheels
+            wheels: paginated
         },
     });
 };
@@ -118,7 +105,7 @@ export const getWheel = async (
 
 
 export const updateWheel = async (
-    req: Request<WheelParams, unknown, Partial<WheelReqBody>>,
+    req: Request<WheelParams, unknown, WheelUpdateBody>,
     res: Response,
     next: NextFunction
 ): Promise<Response | void> => {
