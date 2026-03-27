@@ -1,0 +1,106 @@
+[
+  {
+    "id": "r1a2b3c4-0001-0000-0000-000000000001",
+    "name": "Summer Mega Raffle",
+    "description": "Win big this summer with our most exciting raffle yet.",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "endDate": "2026-04-30T23:59:59.000Z",
+    "drawDate": "2026-05-05T12:00:00.000Z",
+    "status": "active",
+    "ticketPrice": 10,
+    "maxTicketsPerUser": 5,
+    "totalTicketLimit": 500,
+    "prizes": [
+      {
+        "id": "p1-0001",
+        "name": "Grand Prize",
+        "type": "coins",
+        "amount": 10000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p1-0002",
+        "name": "Runner Up",
+        "type": "bonus",
+        "amount": 500,
+        "quantity": 3,
+        "imageUrl": ""
+      },
+      {
+        "id": "p1-0003",
+        "name": "Consolation",
+        "type": "freeSpin",
+        "amount": 5,
+        "quantity": 10,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-20T10:00:00.000Z",
+    "updatedAt": "2026-03-20T10:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0002-0000-0000-000000000002",
+    "name": "VIP Weekly Draw",
+    "description": "Exclusive weekly raffle for VIP members only.",
+    "startDate": "2026-03-24T00:00:00.000Z",
+    "endDate": "2026-03-30T23:59:59.000Z",
+    "drawDate": "2026-03-31T18:00:00.000Z",
+    "status": "drawn",
+    "ticketPrice": 50,
+    "maxTicketsPerUser": 2,
+    "totalTicketLimit": 100,
+    "prizes": [
+      {
+        "id": "p2-0001",
+        "name": "VIP Jackpot",
+        "type": "coins",
+        "amount": 25000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p2-0002",
+        "name": "Bonus Pack",
+        "type": "bonus",
+        "amount": 1000,
+        "quantity": 2,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-18T09:00:00.000Z",
+    "updatedAt": "2026-03-31T18:05:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0003-0000-0000-000000000003",
+    "name": "Free Entry Raffle",
+    "description": "No cost to enter — unlimited tickets, try your luck!",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "endDate": "2026-05-15T23:59:59.000Z",
+    "drawDate": "2026-05-20T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 0,
+    "maxTicketsPerUser": 10,
+    "totalTicketLimit": null,
+    "prizes": [
+      {
+        "id": "p3-0001",
+        "name": "Free Spins Bundle",
+        "type": "freeSpin",
+        "amount": 20,
+        "quantity": 5,
+        "imageUrl": ""
+      },
+      {
+        "id": "p3-0002",
+        "name": "Coin Bag",
+        "type": "coins",
+        "amount": 1000,
+        "quantity": 10,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-26T08:00:00.000Z",
+    "updatedAt": "2026-03-26T08:00:00.000Z"
+  }
+]
