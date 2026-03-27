@@ -1,0 +1,100 @@
+[
+  {
+    "id": "l1a2b3c4-0001-0000-0000-000000000001",
+    "title": "April Points Championship",
+    "description": "Compete for the highest points score this April.",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "endDate": "2026-04-30T23:59:59.000Z",
+    "status": "active",
+    "scoringType": "points",
+    "maxParticipants": 100,
+    "prizes": [
+      {
+        "id": "lp1-0001",
+        "rank": 1,
+        "name": "Gold Trophy",
+        "type": "coins",
+        "amount": 10000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp1-0002",
+        "rank": 2,
+        "name": "Silver Trophy",
+        "type": "coins",
+        "amount": 5000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp1-0003",
+        "rank": 3,
+        "name": "Bronze Trophy",
+        "type": "bonus",
+        "amount": 1000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-20T10:00:00.000Z",
+    "updatedAt": "2026-03-27T12:57:57.119Z"
+  },
+  {
+    "id": "l1a2b3c4-0002-0000-0000-000000000002",
+    "title": "Weekly Wins Battle",
+    "description": "Most wins this week takes the prize.",
+    "startDate": "2026-03-24T00:00:00.000Z",
+    "endDate": "2026-03-30T23:59:59.000Z",
+    "status": "completed",
+    "scoringType": "wins",
+    "maxParticipants": 50,
+    "prizes": [
+      {
+        "id": "lp2-0001",
+        "rank": 1,
+        "name": "Champion Reward",
+        "type": "coins",
+        "amount": 25000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp2-0002",
+        "rank": 2,
+        "name": "Runner Up",
+        "type": "freeSpin",
+        "amount": 20,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-18T09:00:00.000Z",
+    "updatedAt": "2026-03-30T23:59:59.000Z"
+  },
+  {
+    "id": "3d208c19-76b0-489b-8be7-4a38c7d5e007",
+    "title": "Updated Championship",
+    "description": "Best players of spring.",
+    "status": "draft",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "endDate": "2026-05-31T23:59:59.000Z",
+    "scoringType": "points",
+    "maxParticipants": 50,
+    "prizes": [
+      {
+        "rank": 1,
+        "name": "Gold",
+        "type": "coins",
+        "amount": 5000,
+        "imageUrl": "",
+        "id": "b913b5e4-811b-4e9c-8c40-63a23efa52d1"
+      },
+      {
+        "rank": 2,
+        "name": "Silver",
+        "type": "coins",
+        "amount": 2000,
+        "imageUrl": "",
+        "id": "ed354ca8-0549-40eb-afe5-f0d7f43ce90c"
+      }
+    ],
+    "createdAt": "2026-03-27T12:55:38.391Z",
+    "updatedAt": "2026-03-27T12:59:02.011Z"
+  }
+]

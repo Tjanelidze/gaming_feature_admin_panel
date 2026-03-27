@@ -7,8 +7,8 @@ import {createRaffleSchema, updateRaffleSchema} from "@/validators/raffle.valida
 const router = express.Router();
 
 router.get('/', catchAsync(raffleController.getAllRaffles));
-router.get('/:id', catchAsync(raffleController.getRaffle));
 router.post('/', validate(createRaffleSchema), catchAsync(raffleController.createRaffle));
+router.get('/:id', catchAsync(raffleController.getRaffle));
 router.patch('/:id', validate(updateRaffleSchema), catchAsync(raffleController.updateRaffle));
 router.delete('/:id', catchAsync(raffleController.deleteRaffle));
 
