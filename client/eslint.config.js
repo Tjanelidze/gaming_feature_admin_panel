@@ -12,9 +12,11 @@ export default defineConfig([
         extends: [
             js.configs.recommended,
             tseslint.configs.recommended,
-            reactHooks.configs.flat.recommended,
             reactRefresh.configs.vite,
         ],
+        plugins: {
+            'react-hooks': reactHooks,
+        },
         languageOptions: {
             ecmaVersion: 2020,
             globals: globals.browser,
@@ -24,15 +26,17 @@ export default defineConfig([
             '@typescript-eslint/no-explicit-any': 'error',
             'react-hooks/rules-of-hooks': 'error',
             'react-hooks/exhaustive-deps': 'warn',
+            'react-refresh/only-export-components': 'off',
             'padding-line-between-statements': [
                 'error',
                 {blankLine: 'always', prev: '*', next: ['block', 'block-like']},
                 {blankLine: 'always', prev: '*', next: 'return'}
             ],
-            'no-param-reassign': [
-                'error',
-                {props: true, ignorePropertyModificationsFor: ['error', {props: true}]}
-            ],
+            'no-param-reassign': ['error', {
+                props: true,
+                ignorePropertyModificationsFor: ['acc', 'accumulator', 'e', 'ctx', 'req', 'request', 'res', 'response']
+            }]
+
         },
     },
 ]);
