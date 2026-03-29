@@ -1,31 +1,26 @@
+import {useState} from 'react';
 import {IconButton, Tooltip} from '@mui/material';
 import {Delete, Edit, Visibility} from '@mui/icons-material';
 import {useNavigate} from 'react-router-dom';
-import {RoutesPaths} from '@/routes/routesPaths.ts';
-import type {IWheel} from "@/features/wheel/types/wheel.types.ts";
-import {useDeleteWheel} from "@/features/wheel/hooks/useDeleteWheel.ts";
-import {useState} from "react";
-import {ConfirmDialog} from "@/components/ConfirmDialog/ConfirmDialog.tsx";
+import {useDeleteRaffle} from '../../hooks/useDeleteRaffle.ts';
+import {ConfirmDialog} from '@/components/ConfirmDialog/ConfirmDialog.tsx';
+import RoutesPaths from '@/routes/routesPaths.ts';
+import type {IRaffle} from '../../types/raffle.types.ts';
 
-
-interface WheelActionsProps {
-    wheel: IWheel;
-}
-
-export const WheelActions = ({wheel}: WheelActionsProps) => {
+export const RaffleActions = ({raffle}: { raffle: IRaffle }) => {
     const navigate = useNavigate();
-    const {mutate: deleteWheel, isPending} = useDeleteWheel();
+    const {mutate: deleteRaffle, isPending} = useDeleteRaffle();
     const [confirmOpen, setConfirmOpen] = useState(false);
 
     return (
         <>
             <Tooltip title="View">
-                <IconButton size="small" onClick={() => navigate(`${RoutesPaths.WHEEL}/${wheel.id}`)}>
+                <IconButton size="small" onClick={() => navigate(`${RoutesPaths.RAFFLE}/${raffle.id}`)}>
                     <Visibility fontSize="small"/>
                 </IconButton>
             </Tooltip>
             <Tooltip title="Edit">
-                <IconButton size="small" onClick={() => navigate(`${RoutesPaths.WHEEL}/${wheel.id}/edit`)}>
+                <IconButton size="small" onClick={() => navigate(`${RoutesPaths.RAFFLE}/${raffle.id}/edit`)}>
                     <Edit fontSize="small"/>
                 </IconButton>
             </Tooltip>
@@ -38,9 +33,9 @@ export const WheelActions = ({wheel}: WheelActionsProps) => {
             <ConfirmDialog
                 open={confirmOpen}
                 title="Delete Raffle"
-                description={`Are you sure you want to delete "${wheel.name}"? This action cannot be undone.`}
+                description={`Are you sure you want to delete "${raffle.name}"? This action cannot be undone.`}
                 onConfirm={() => {
-                    deleteWheel(wheel.id);
+                    deleteRaffle(raffle.id);
                     setConfirmOpen(false);
                 }}
                 onCancel={() => setConfirmOpen(false)}

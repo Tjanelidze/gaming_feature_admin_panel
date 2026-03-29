@@ -7,7 +7,7 @@ interface TableFiltersProps {
 
 export const TableFilters = ({children}: TableFiltersProps) => {
     return (
-        <Box sx={{display: 'flex', gap: 2, mb: 2, alignItems: 'center'}}>
+        <Box sx={{display: 'flex', gap: 2, mb: 2, alignItems: 'center', flexWrap: 'wrap'}}>
             {children}
         </Box>
     );

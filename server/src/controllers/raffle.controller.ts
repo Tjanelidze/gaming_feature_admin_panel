@@ -19,8 +19,6 @@ export const getAllRaffles = async (
         sortBy = 'createdAt',
         order = 'desc',
         startDateFrom,
-        startDateTo,
-        endDateFrom,
         endDateTo,
     } = req.query;
 
@@ -29,8 +27,6 @@ export const getAllRaffles = async (
     const filtered = raffles.filter((r: IRaffle) => {
         if (status && r.status !== status) return false;
         if (startDateFrom && r.startDate < startDateFrom) return false;
-        if (startDateTo && r.startDate > startDateTo) return false;
-        if (endDateFrom && r.endDate < endDateFrom) return false;
 
         return !(endDateTo && r.endDate > endDateTo);
     });

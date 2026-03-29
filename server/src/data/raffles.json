@@ -73,13 +73,13 @@
   },
   {
     "id": "r1a2b3c4-0003-0000-0000-000000000003",
-    "name": "Free Entry Raffle",
+    "name": "Free Entry Raffle1",
     "description": "No cost to enter — unlimited tickets, try your luck!",
     "startDate": "2026-05-01T00:00:00.000Z",
     "endDate": "2026-05-15T23:59:59.000Z",
     "drawDate": "2026-05-20T12:00:00.000Z",
     "status": "draft",
-    "ticketPrice": 0,
+    "ticketPrice": 2,
     "maxTicketsPerUser": 10,
     "totalTicketLimit": null,
     "prizes": [
@@ -101,6 +101,6 @@
       }
     ],
     "createdAt": "2026-03-26T08:00:00.000Z",
-    "updatedAt": "2026-03-26T08:00:00.000Z"
+    "updatedAt": "2026-03-29T21:38:45.414Z"
   }
 ]
