@@ -1,5 +1,8 @@
 export const RoutesPaths = {
     LEADERBOARD: '/leaderboard',
+    LEADERBOARD_CREATE: '/leaderboard/create',
+    LEADERBOARD_EDIT: '/leaderboard/:id/edit',
+    LEADERBOARD_DETAIL: '/leaderboard/:id',
     RAFFLE: '/raffle',
     RAFFLE_CREATE: '/raffle/create',
     RAFFLE_EDIT: '/raffle/:id/edit',

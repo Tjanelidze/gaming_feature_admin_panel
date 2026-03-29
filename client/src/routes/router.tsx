@@ -10,6 +10,10 @@ import {RaffleListPage} from "@/features/raffle/pages/RaffleListPage.tsx";
 import {RaffleCreatePage} from "@/features/raffle/pages/RaffleCreatePage.tsx";
 import {RaffleEditPage} from "@/features/raffle/pages/RaffleEditPage.tsx";
 import {RaffleDetailPage} from "@/features/raffle/pages/RaffleDetailPage.tsx";
+import {LeaderboardListPage} from "@/features/leaderboard/pages/LeaderboardListPage.tsx";
+import {LeaderboardCreatePage} from "@/features/leaderboard/pages/LeaderboardCreatePage.tsx";
+import {LeaderboardEditPage} from "@/features/leaderboard/pages/LeaderboardEditPage.tsx";
+import {LeaderboardDetailPage} from "@/features/leaderboard/pages/LeaderboardDetailPage.tsx";
 
 
 export const router = createBrowserRouter([
@@ -17,10 +21,10 @@ export const router = createBrowserRouter([
         path: '/',
         element: <Layout/>,
         children: [
-            {
-                path: RoutesPaths.LEADERBOARD,
-                element: <></>,
-            },
+            {path: RoutesPaths.LEADERBOARD, element: <LeaderboardListPage/>},
+            {path: RoutesPaths.LEADERBOARD_CREATE, element: <LeaderboardCreatePage/>},
+            {path: RoutesPaths.LEADERBOARD_EDIT, element: <LeaderboardEditPage/>},
+            {path: RoutesPaths.LEADERBOARD_DETAIL, element: <LeaderboardDetailPage/>},
             {path: RoutesPaths.RAFFLE, element: <RaffleListPage/>},
             {path: RoutesPaths.RAFFLE_CREATE, element: <RaffleCreatePage/>},
             {path: RoutesPaths.RAFFLE_EDIT, element: <RaffleEditPage/>},
