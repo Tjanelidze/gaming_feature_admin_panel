@@ -4,6 +4,6 @@ import {wheelApi} from "@/features/wheel/api/wheel.api.ts";
 import {WHEEL_QUERY_KEYS} from "@/features/wheel/constants/wheel.query-keys.ts";
 
 export const useWheels = (params?: WheelQueryParams) => useQuery({
-    queryKey: WHEEL_QUERY_KEYS.all,
+    queryKey: [...WHEEL_QUERY_KEYS.all, params],
     queryFn: () => wheelApi.getAll(params).then(res => res.data),
 });

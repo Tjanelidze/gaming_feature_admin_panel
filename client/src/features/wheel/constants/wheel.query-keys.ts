@@ -1,4 +1,4 @@
 export const WHEEL_QUERY_KEYS = {
-    all: ['wheels'] as const,
-    detail: (id: string) => ['wheels', id] as const,
+    all: ['wheel'] as const,
+    detail: (id: string) => ['wheel', id] as const,
 };
