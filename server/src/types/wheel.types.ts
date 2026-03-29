@@ -16,6 +16,7 @@ interface WheelSegment {
     id: string;
     label: string;
     color: string;
+    weight: number;
     prizeType: 'coins' | 'freeSpin' | 'bonus' | 'nothing';
     prizeAmount: number;
     imageUrl?: string;

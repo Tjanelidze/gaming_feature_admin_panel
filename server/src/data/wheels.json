@@ -197,31 +197,31 @@
     "status": "active",
     "segments": [
       {
+        "id": "9322d766-d5b9-4bc5-8e54-9e3967a63fb2",
         "label": "100 Coins",
         "color": "#f1c40f",
         "weight": 30,
         "prizeType": "coins",
         "prizeAmount": 100,
-        "imageUrl": "",
-        "id": "9322d766-d5b9-4bc5-8e54-9e3967a63fb2"
+        "imageUrl": ""
       },
       {
+        "id": "fb742039-9b77-4c54-871c-c7dd66dbf1ea",
         "label": "Free Spin",
         "color": "#2ecc71",
         "weight": 20,
         "prizeType": "freeSpin",
         "prizeAmount": 1,
-        "imageUrl": "",
-        "id": "fb742039-9b77-4c54-871c-c7dd66dbf1ea"
+        "imageUrl": ""
       },
       {
+        "id": "6aacaf9d-4690-470e-8f61-9d8ddc5b1cb8",
         "label": "Nothing",
         "color": "#95a5a6",
         "weight": 50,
         "prizeType": "nothing",
         "prizeAmount": 0,
-        "imageUrl": "",
-        "id": "6aacaf9d-4690-470e-8f61-9d8ddc5b1cb8"
+        "imageUrl": ""
       }
     ],
     "maxSpinsPerUser": 1,
@@ -229,6 +229,6 @@
     "backgroundColor": "#1a1a2e",
     "borderColor": "#f1c40f",
     "createdAt": "2026-03-26T17:34:23.476Z",
-    "updatedAt": "2026-03-26T17:34:23.476Z"
+    "updatedAt": "2026-03-29T17:19:00.216Z"
   }
 ]
