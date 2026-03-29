@@ -1,11 +1,11 @@
-import {Box, Typography} from "@mui/material";
+import {Box, Typography, useMediaQuery, useTheme} from "@mui/material";
 import {Casino, ConfirmationNumber, Leaderboard,} from "@mui/icons-material";
 import {useLocation, useNavigate} from "react-router-dom";
 import {sidebarStyles} from "./Sidebar.styles.ts";
-import {RoutesPaths} from "../../routes/routesPaths.ts";
-import {useThemeContext} from "../../context/ThemeContext.tsx";
+import RoutesPaths from "@/routes/routesPaths.ts";
+import {useThemeContext} from "@/context/ThemeContext.tsx";
+import {SIDEBAR_WIDTH, SIDEBAR_WIDTH_SM} from './constants.ts';
 
-const SIDEBAR_WIDTH = 240;
 
 const navItems = [
     {label: 'Leaderboard', icon: <Leaderboard fontSize="small"/>, path: RoutesPaths.LEADERBOARD},
@@ -18,9 +18,12 @@ export const Sidebar = () => {
     const navigate = useNavigate();
     const {pathname} = useLocation();
     const {mode} = useThemeContext();
+    const theme = useTheme();
+    const isSmall = useMediaQuery(theme.breakpoints.down(1070));
+    const width = isSmall ? SIDEBAR_WIDTH_SM : SIDEBAR_WIDTH;
 
     return (
-        <Box sx={sidebarStyles.container(SIDEBAR_WIDTH)}>
+        <Box sx={sidebarStyles.container(width)}>
             <Box sx={sidebarStyles.logo()}>
                 <img
                     src="/logo"
