@@ -5,7 +5,7 @@
     "description": "Compete for the highest points score this April.",
     "startDate": "2026-04-01T00:00:00.000Z",
     "endDate": "2026-04-30T23:59:59.000Z",
-    "status": "active",
+    "status": "draft",
     "scoringType": "points",
     "maxParticipants": 100,
     "prizes": [
@@ -35,7 +35,7 @@
       }
     ],
     "createdAt": "2026-03-20T10:00:00.000Z",
-    "updatedAt": "2026-03-27T12:57:57.119Z"
+    "updatedAt": "2026-03-29T22:08:26.947Z"
   },
   {
     "id": "l1a2b3c4-0002-0000-0000-000000000002",
@@ -71,30 +71,30 @@
     "id": "3d208c19-76b0-489b-8be7-4a38c7d5e007",
     "title": "Updated Championship",
     "description": "Best players of spring.",
-    "status": "draft",
+    "status": "active",
     "startDate": "2026-05-01T00:00:00.000Z",
     "endDate": "2026-05-31T23:59:59.000Z",
     "scoringType": "points",
     "maxParticipants": 50,
     "prizes": [
       {
+        "id": "b913b5e4-811b-4e9c-8c40-63a23efa52d1",
         "rank": 1,
         "name": "Gold",
         "type": "coins",
         "amount": 5000,
-        "imageUrl": "",
-        "id": "b913b5e4-811b-4e9c-8c40-63a23efa52d1"
+        "imageUrl": ""
       },
       {
+        "id": "ed354ca8-0549-40eb-afe5-f0d7f43ce90c",
         "rank": 2,
         "name": "Silver",
         "type": "coins",
         "amount": 2000,
-        "imageUrl": "",
-        "id": "ed354ca8-0549-40eb-afe5-f0d7f43ce90c"
+        "imageUrl": ""
       }
     ],
     "createdAt": "2026-03-27T12:55:38.391Z",
-    "updatedAt": "2026-03-27T12:59:02.011Z"
+    "updatedAt": "2026-03-29T22:13:17.420Z"
   }
 ]
