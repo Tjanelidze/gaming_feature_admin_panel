@@ -15,7 +15,7 @@ export interface IRaffle {
 }
 
 
-interface RafflePrize {
+export interface RafflePrize {
     id: string;
     name: string;
     type: 'coins' | 'freeSpin' | 'bonus';
@@ -29,8 +29,8 @@ export type SortOrder = 'asc' | 'desc';
 export type RaffleSortBy = keyof Pick<IRaffle, 'name' | 'startDate' | 'endDate' | 'drawDate' | 'createdAt'>;
 
 export type RaffleQueryParams = {
-    page?: string;
-    limit?: string;
+    page?: number;
+    limit?: number;
     sortBy?: RaffleSortBy;
     order?: SortOrder;
     status?: RaffleStatus;
@@ -38,6 +38,13 @@ export type RaffleQueryParams = {
     endDateTo?: string;
 };
 
-export type RaffleParams = {
-    id: string;
+export interface RaffleListResponse {
+    status: string;
+    total: number;
+    totalPages: number;
+    page: number;
+    limit: number;
+    data: {
+        raffles: IRaffle[];
+    };
 }
