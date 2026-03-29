@@ -102,5 +102,629 @@
     ],
     "createdAt": "2026-03-26T08:00:00.000Z",
     "updatedAt": "2026-03-29T21:38:45.414Z"
+  },
+  {
+    "id": "r1a2b3c4-0004-0000-0000-000000000004",
+    "name": "Spring Jackpot",
+    "description": "Celebrate spring with a chance to win massive coin rewards.",
+    "startDate": "2026-04-10T00:00:00.000Z",
+    "endDate": "2026-04-20T23:59:59.000Z",
+    "drawDate": "2026-04-25T12:00:00.000Z",
+    "status": "active",
+    "ticketPrice": 15,
+    "maxTicketsPerUser": 3,
+    "totalTicketLimit": 300,
+    "prizes": [
+      {
+        "id": "p4-0001",
+        "name": "Mega Coins",
+        "type": "coins",
+        "amount": 15000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p4-0002",
+        "name": "Spin Pack",
+        "type": "freeSpin",
+        "amount": 10,
+        "quantity": 5,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-28T10:00:00.000Z",
+    "updatedAt": "2026-03-28T10:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0005-0000-0000-000000000005",
+    "name": "Golden Ticket Draw",
+    "description": "One lucky winner takes the golden prize.",
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "endDate": "2026-03-15T23:59:59.000Z",
+    "drawDate": "2026-03-20T12:00:00.000Z",
+    "status": "drawn",
+    "ticketPrice": 100,
+    "maxTicketsPerUser": 1,
+    "totalTicketLimit": 50,
+    "prizes": [
+      {
+        "id": "p5-0001",
+        "name": "Golden Jackpot",
+        "type": "coins",
+        "amount": 50000,
+        "quantity": 1,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-02-20T08:00:00.000Z",
+    "updatedAt": "2026-03-20T12:05:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0006-0000-0000-000000000006",
+    "name": "Cancelled Lucky Draw",
+    "description": "This raffle was cancelled due to low participation.",
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "endDate": "2026-02-14T23:59:59.000Z",
+    "drawDate": "2026-02-20T12:00:00.000Z",
+    "status": "cancelled",
+    "ticketPrice": 5,
+    "maxTicketsPerUser": 10,
+    "totalTicketLimit": 200,
+    "prizes": [
+      {
+        "id": "p6-0001",
+        "name": "Bonus Chest",
+        "type": "bonus",
+        "amount": 2000,
+        "quantity": 2,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-01-25T08:00:00.000Z",
+    "updatedAt": "2026-02-15T09:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0007-0000-0000-000000000007",
+    "name": "Mega Bonus Blitz",
+    "description": "Bonus rewards for everyone who participates.",
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "endDate": "2026-05-25T23:59:59.000Z",
+    "drawDate": "2026-05-30T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 20,
+    "maxTicketsPerUser": 8,
+    "totalTicketLimit": 400,
+    "prizes": [
+      {
+        "id": "p7-0001",
+        "name": "Bonus King",
+        "type": "bonus",
+        "amount": 5000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p7-0002",
+        "name": "Spin Storm",
+        "type": "freeSpin",
+        "amount": 50,
+        "quantity": 3,
+        "imageUrl": ""
+      },
+      {
+        "id": "p7-0003",
+        "name": "Coin Rain",
+        "type": "coins",
+        "amount": 2000,
+        "quantity": 5,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T11:00:00.000Z",
+    "updatedAt": "2026-03-29T11:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0008-0000-0000-000000000008",
+    "name": "Daily Spin Special",
+    "description": "Win free spins every day this week.",
+    "startDate": "2026-04-05T00:00:00.000Z",
+    "endDate": "2026-04-12T23:59:59.000Z",
+    "drawDate": "2026-04-14T12:00:00.000Z",
+    "status": "active",
+    "ticketPrice": 3,
+    "maxTicketsPerUser": 20,
+    "totalTicketLimit": null,
+    "prizes": [
+      {
+        "id": "p8-0001",
+        "name": "Spin Frenzy",
+        "type": "freeSpin",
+        "amount": 30,
+        "quantity": 10,
+        "imageUrl": ""
+      },
+      {
+        "id": "p8-0002",
+        "name": "Coin Boost",
+        "type": "coins",
+        "amount": 500,
+        "quantity": 20,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T07:00:00.000Z",
+    "updatedAt": "2026-03-30T07:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0009-0000-0000-000000000009",
+    "name": "High Roller Raffle",
+    "description": "Only for the big spenders. Massive prizes await.",
+    "startDate": "2026-03-10T00:00:00.000Z",
+    "endDate": "2026-03-20T23:59:59.000Z",
+    "drawDate": "2026-03-25T18:00:00.000Z",
+    "status": "drawn",
+    "ticketPrice": 200,
+    "maxTicketsPerUser": 1,
+    "totalTicketLimit": 25,
+    "prizes": [
+      {
+        "id": "p9-0001",
+        "name": "Elite Jackpot",
+        "type": "coins",
+        "amount": 100000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p9-0002",
+        "name": "VIP Bonus",
+        "type": "bonus",
+        "amount": 10000,
+        "quantity": 1,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-01T09:00:00.000Z",
+    "updatedAt": "2026-03-25T18:10:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0010-0000-0000-000000000010",
+    "name": "Rookie Raffle",
+    "description": "Perfect for new players — low cost, great prizes.",
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "endDate": "2026-06-10T23:59:59.000Z",
+    "drawDate": "2026-06-15T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 1,
+    "maxTicketsPerUser": 50,
+    "totalTicketLimit": 1000,
+    "prizes": [
+      {
+        "id": "p10-0001",
+        "name": "Starter Pack",
+        "type": "bonus",
+        "amount": 100,
+        "quantity": 20,
+        "imageUrl": ""
+      },
+      {
+        "id": "p10-0002",
+        "name": "Lucky Spins",
+        "type": "freeSpin",
+        "amount": 5,
+        "quantity": 50,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T14:00:00.000Z",
+    "updatedAt": "2026-03-29T14:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0011-0000-0000-000000000011",
+    "name": "Weekend Warrior",
+    "description": "Short and sweet — enter over the weekend and win.",
+    "startDate": "2026-04-18T00:00:00.000Z",
+    "endDate": "2026-04-20T23:59:59.000Z",
+    "drawDate": "2026-04-21T10:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 8,
+    "maxTicketsPerUser": 4,
+    "totalTicketLimit": 160,
+    "prizes": [
+      {
+        "id": "p11-0001",
+        "name": "Weekend Bonus",
+        "type": "bonus",
+        "amount": 750,
+        "quantity": 3,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T08:00:00.000Z",
+    "updatedAt": "2026-03-30T08:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0012-0000-0000-000000000012",
+    "name": "April Fools Fortune",
+    "description": "No joke — real prizes, real winners.",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "endDate": "2026-04-01T23:59:59.000Z",
+    "drawDate": "2026-04-02T09:00:00.000Z",
+    "status": "active",
+    "ticketPrice": 4,
+    "maxTicketsPerUser": 5,
+    "totalTicketLimit": 100,
+    "prizes": [
+      {
+        "id": "p12-0001",
+        "name": "Fool's Gold",
+        "type": "coins",
+        "amount": 4444,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p12-0002",
+        "name": "Joke Spins",
+        "type": "freeSpin",
+        "amount": 4,
+        "quantity": 4,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-28T12:00:00.000Z",
+    "updatedAt": "2026-03-28T12:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0013-0000-0000-000000000013",
+    "name": "Unlimited Entry Bash",
+    "description": "No ticket cap — the more you enter, the better your odds.",
+    "startDate": "2026-05-20T00:00:00.000Z",
+    "endDate": "2026-06-05T23:59:59.000Z",
+    "drawDate": "2026-06-10T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 2,
+    "maxTicketsPerUser": 100,
+    "totalTicketLimit": null,
+    "prizes": [
+      {
+        "id": "p13-0001",
+        "name": "Top Dog Coins",
+        "type": "coins",
+        "amount": 8000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p13-0002",
+        "name": "Mid Tier Bonus",
+        "type": "bonus",
+        "amount": 300,
+        "quantity": 5,
+        "imageUrl": ""
+      },
+      {
+        "id": "p13-0003",
+        "name": "Entry Spins",
+        "type": "freeSpin",
+        "amount": 3,
+        "quantity": 30,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-27T15:00:00.000Z",
+    "updatedAt": "2026-03-27T15:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0014-0000-0000-000000000014",
+    "name": "Flash Raffle",
+    "description": "24 hours only — don't blink or you'll miss it.",
+    "startDate": "2026-04-15T00:00:00.000Z",
+    "endDate": "2026-04-15T23:59:59.000Z",
+    "drawDate": "2026-04-16T08:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 25,
+    "maxTicketsPerUser": 2,
+    "totalTicketLimit": 80,
+    "prizes": [
+      {
+        "id": "p14-0001",
+        "name": "Flash Grand",
+        "type": "coins",
+        "amount": 20000,
+        "quantity": 1,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T09:00:00.000Z",
+    "updatedAt": "2026-03-30T09:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0015-0000-0000-000000000015",
+    "name": "Loyalty Reward Draw",
+    "description": "Exclusive raffle for our most loyal players.",
+    "startDate": "2026-03-05T00:00:00.000Z",
+    "endDate": "2026-03-18T23:59:59.000Z",
+    "drawDate": "2026-03-22T14:00:00.000Z",
+    "status": "drawn",
+    "ticketPrice": 30,
+    "maxTicketsPerUser": 3,
+    "totalTicketLimit": 150,
+    "prizes": [
+      {
+        "id": "p15-0001",
+        "name": "Loyalty Coins",
+        "type": "coins",
+        "amount": 30000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p15-0002",
+        "name": "Loyalty Bonus",
+        "type": "bonus",
+        "amount": 2000,
+        "quantity": 2,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-02-28T10:00:00.000Z",
+    "updatedAt": "2026-03-22T14:10:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0016-0000-0000-000000000016",
+    "name": "Newcomer Welcome Raffle",
+    "description": "A warm welcome for all new players.",
+    "startDate": "2026-06-15T00:00:00.000Z",
+    "endDate": "2026-06-30T23:59:59.000Z",
+    "drawDate": "2026-07-05T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 0,
+    "maxTicketsPerUser": 1,
+    "totalTicketLimit": 500,
+    "prizes": [
+      {
+        "id": "p16-0001",
+        "name": "Welcome Coins",
+        "type": "coins",
+        "amount": 500,
+        "quantity": 50,
+        "imageUrl": ""
+      },
+      {
+        "id": "p16-0002",
+        "name": "Welcome Spins",
+        "type": "freeSpin",
+        "amount": 10,
+        "quantity": 50,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T16:00:00.000Z",
+    "updatedAt": "2026-03-29T16:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0017-0000-0000-000000000017",
+    "name": "Double or Nothing",
+    "description": "High risk, high reward — one prize, one winner.",
+    "startDate": "2026-04-22T00:00:00.000Z",
+    "endDate": "2026-04-28T23:59:59.000Z",
+    "drawDate": "2026-04-30T20:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 75,
+    "maxTicketsPerUser": 1,
+    "totalTicketLimit": 40,
+    "prizes": [
+      {
+        "id": "p17-0001",
+        "name": "All In",
+        "type": "coins",
+        "amount": 75000,
+        "quantity": 1,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T10:00:00.000Z",
+    "updatedAt": "2026-03-30T10:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0018-0000-0000-000000000018",
+    "name": "Multi-Prize Madness",
+    "description": "Tons of prizes across all categories.",
+    "startDate": "2026-05-05T00:00:00.000Z",
+    "endDate": "2026-05-20T23:59:59.000Z",
+    "drawDate": "2026-05-25T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 12,
+    "maxTicketsPerUser": 6,
+    "totalTicketLimit": 600,
+    "prizes": [
+      {
+        "id": "p18-0001",
+        "name": "Grand Coins",
+        "type": "coins",
+        "amount": 12000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p18-0002",
+        "name": "Silver Bonus",
+        "type": "bonus",
+        "amount": 1200,
+        "quantity": 4,
+        "imageUrl": ""
+      },
+      {
+        "id": "p18-0003",
+        "name": "Bronze Spins",
+        "type": "freeSpin",
+        "amount": 12,
+        "quantity": 12,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-28T13:00:00.000Z",
+    "updatedAt": "2026-03-28T13:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0019-0000-0000-000000000019",
+    "name": "Early Bird Special",
+    "description": "Register early for the best odds.",
+    "startDate": "2026-07-01T00:00:00.000Z",
+    "endDate": "2026-07-15T23:59:59.000Z",
+    "drawDate": "2026-07-20T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 5,
+    "maxTicketsPerUser": 15,
+    "totalTicketLimit": 750,
+    "prizes": [
+      {
+        "id": "p19-0001",
+        "name": "Early Jackpot",
+        "type": "coins",
+        "amount": 7500,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p19-0002",
+        "name": "Early Bonus",
+        "type": "bonus",
+        "amount": 400,
+        "quantity": 5,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T11:00:00.000Z",
+    "updatedAt": "2026-03-30T11:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0020-0000-0000-000000000020",
+    "name": "Cancelled Mega Draw",
+    "description": "Unfortunately cancelled due to technical issues.",
+    "startDate": "2026-01-15T00:00:00.000Z",
+    "endDate": "2026-01-30T23:59:59.000Z",
+    "drawDate": "2026-02-05T12:00:00.000Z",
+    "status": "cancelled",
+    "ticketPrice": 40,
+    "maxTicketsPerUser": 3,
+    "totalTicketLimit": 300,
+    "prizes": [
+      {
+        "id": "p20-0001",
+        "name": "Mega Prize",
+        "type": "coins",
+        "amount": 40000,
+        "quantity": 1,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-01-10T08:00:00.000Z",
+    "updatedAt": "2026-01-31T10:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0021-0000-0000-000000000021",
+    "name": "Spin Master Championship",
+    "description": "The ultimate free spin raffle event.",
+    "startDate": "2026-04-28T00:00:00.000Z",
+    "endDate": "2026-05-08T23:59:59.000Z",
+    "drawDate": "2026-05-12T12:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 18,
+    "maxTicketsPerUser": 7,
+    "totalTicketLimit": 350,
+    "prizes": [
+      {
+        "id": "p21-0001",
+        "name": "Champion Spins",
+        "type": "freeSpin",
+        "amount": 100,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p21-0002",
+        "name": "Runner Spins",
+        "type": "freeSpin",
+        "amount": 25,
+        "quantity": 5,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T17:00:00.000Z",
+    "updatedAt": "2026-03-29T17:00:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0022-0000-0000-000000000022",
+    "name": "Last Chance Lottery",
+    "description": "Final raffle of the quarter — make it count.",
+    "startDate": "2026-03-25T00:00:00.000Z",
+    "endDate": "2026-03-29T23:59:59.000Z",
+    "drawDate": "2026-03-30T20:00:00.000Z",
+    "status": "drawn",
+    "ticketPrice": 60,
+    "maxTicketsPerUser": 2,
+    "totalTicketLimit": 60,
+    "prizes": [
+      {
+        "id": "p22-0001",
+        "name": "Quarter Champion",
+        "type": "coins",
+        "amount": 60000,
+        "quantity": 1,
+        "imageUrl": ""
+      },
+      {
+        "id": "p22-0002",
+        "name": "Second Place Bonus",
+        "type": "bonus",
+        "amount": 3000,
+        "quantity": 1,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-20T09:00:00.000Z",
+    "updatedAt": "2026-03-30T20:15:00.000Z"
+  },
+  {
+    "id": "r1a2b3c4-0023-0000-0000-000000000023",
+    "name": "Community Choice Raffle",
+    "description": "Voted by players, for players.",
+    "startDate": "2026-06-20T00:00:00.000Z",
+    "endDate": "2026-07-01T23:59:59.000Z",
+    "drawDate": "2026-07-05T15:00:00.000Z",
+    "status": "draft",
+    "ticketPrice": 7,
+    "maxTicketsPerUser": 12,
+    "totalTicketLimit": null,
+    "prizes": [
+      {
+        "id": "p23-0001",
+        "name": "Community Coins",
+        "type": "coins",
+        "amount": 7000,
+        "quantity": 2,
+        "imageUrl": ""
+      },
+      {
+        "id": "p23-0002",
+        "name": "Community Bonus",
+        "type": "bonus",
+        "amount": 700,
+        "quantity": 7,
+        "imageUrl": ""
+      },
+      {
+        "id": "p23-0003",
+        "name": "Community Spins",
+        "type": "freeSpin",
+        "amount": 7,
+        "quantity": 20,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T12:00:00.000Z",
+    "updatedAt": "2026-03-30T12:00:00.000Z"
   }
 ]

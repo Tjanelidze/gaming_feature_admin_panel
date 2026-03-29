@@ -96,5 +96,709 @@
     ],
     "createdAt": "2026-03-27T12:55:38.391Z",
     "updatedAt": "2026-03-29T22:13:17.420Z"
+  },
+  {
+    "id": "l1a2b3c4-0004-0000-0000-000000000004",
+    "title": "Spring Scoring Showdown",
+    "description": "Rack up the most points across all spring games.",
+    "startDate": "2026-04-05T00:00:00.000Z",
+    "endDate": "2026-04-20T23:59:59.000Z",
+    "status": "active",
+    "scoringType": "points",
+    "maxParticipants": 200,
+    "prizes": [
+      {
+        "id": "lp4-0001",
+        "rank": 1,
+        "name": "Spring Champion",
+        "type": "coins",
+        "amount": 15000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp4-0002",
+        "rank": 2,
+        "name": "Spring Runner",
+        "type": "coins",
+        "amount": 7000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp4-0003",
+        "rank": 3,
+        "name": "Spring Third",
+        "type": "bonus",
+        "amount": 2000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-25T10:00:00.000Z",
+    "updatedAt": "2026-03-25T10:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0005-0000-0000-000000000005",
+    "title": "Win Streak Masters",
+    "description": "Who can keep the longest win streak this month?",
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "endDate": "2026-03-31T23:59:59.000Z",
+    "status": "completed",
+    "scoringType": "wins",
+    "maxParticipants": 75,
+    "prizes": [
+      {
+        "id": "lp5-0001",
+        "rank": 1,
+        "name": "Streak King",
+        "type": "coins",
+        "amount": 20000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp5-0002",
+        "rank": 2,
+        "name": "Streak Silver",
+        "type": "freeSpin",
+        "amount": 50,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp5-0003",
+        "rank": 3,
+        "name": "Streak Bronze",
+        "type": "bonus",
+        "amount": 500,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-02-25T09:00:00.000Z",
+    "updatedAt": "2026-03-31T23:59:59.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0006-0000-0000-000000000006",
+    "title": "VIP Points League",
+    "description": "Exclusive leaderboard for VIP tier players only.",
+    "startDate": "2026-04-10T00:00:00.000Z",
+    "endDate": "2026-04-25T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 30,
+    "prizes": [
+      {
+        "id": "lp6-0001",
+        "rank": 1,
+        "name": "VIP Crown",
+        "type": "coins",
+        "amount": 50000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp6-0002",
+        "rank": 2,
+        "name": "VIP Silver",
+        "type": "coins",
+        "amount": 20000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-28T11:00:00.000Z",
+    "updatedAt": "2026-03-28T11:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0007-0000-0000-000000000007",
+    "title": "Daily Grind Board",
+    "description": "Most active players win big every day.",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "endDate": "2026-04-07T23:59:59.000Z",
+    "status": "active",
+    "scoringType": "wins",
+    "maxParticipants": 500,
+    "prizes": [
+      {
+        "id": "lp7-0001",
+        "rank": 1,
+        "name": "Grind Gold",
+        "type": "coins",
+        "amount": 8000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp7-0002",
+        "rank": 2,
+        "name": "Grind Silver",
+        "type": "coins",
+        "amount": 4000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp7-0003",
+        "rank": 3,
+        "name": "Grind Bronze",
+        "type": "freeSpin",
+        "amount": 20,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp7-0004",
+        "rank": 4,
+        "name": "Participation",
+        "type": "bonus",
+        "amount": 200,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T08:00:00.000Z",
+    "updatedAt": "2026-03-29T08:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0008-0000-0000-000000000008",
+    "title": "Cancelled Tournament Board",
+    "description": "Leaderboard cancelled due to scheduling conflict.",
+    "startDate": "2026-02-10T00:00:00.000Z",
+    "endDate": "2026-02-20T23:59:59.000Z",
+    "status": "cancelled",
+    "scoringType": "points",
+    "maxParticipants": 100,
+    "prizes": [
+      {
+        "id": "lp8-0001",
+        "rank": 1,
+        "name": "Lost Trophy",
+        "type": "coins",
+        "amount": 10000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-02-01T09:00:00.000Z",
+    "updatedAt": "2026-02-11T10:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0009-0000-0000-000000000009",
+    "title": "May Mega League",
+    "description": "The biggest leaderboard event of the month.",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "endDate": "2026-05-31T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 1000,
+    "prizes": [
+      {
+        "id": "lp9-0001",
+        "rank": 1,
+        "name": "Mega Gold",
+        "type": "coins",
+        "amount": 100000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp9-0002",
+        "rank": 2,
+        "name": "Mega Silver",
+        "type": "coins",
+        "amount": 50000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp9-0003",
+        "rank": 3,
+        "name": "Mega Bronze",
+        "type": "bonus",
+        "amount": 10000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T09:00:00.000Z",
+    "updatedAt": "2026-03-30T09:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0010-0000-0000-000000000010",
+    "title": "Rookie Wins Race",
+    "description": "New players only — level the playing field.",
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "endDate": "2026-06-14T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "wins",
+    "maxParticipants": 150,
+    "prizes": [
+      {
+        "id": "lp10-0001",
+        "rank": 1,
+        "name": "Rookie Gold",
+        "type": "coins",
+        "amount": 5000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp10-0002",
+        "rank": 2,
+        "name": "Rookie Spins",
+        "type": "freeSpin",
+        "amount": 15,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T14:00:00.000Z",
+    "updatedAt": "2026-03-29T14:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0011-0000-0000-000000000011",
+    "title": "Flash Tournament",
+    "description": "48 hours, maximum competition.",
+    "startDate": "2026-04-18T00:00:00.000Z",
+    "endDate": "2026-04-20T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "wins",
+    "maxParticipants": 60,
+    "prizes": [
+      {
+        "id": "lp11-0001",
+        "rank": 1,
+        "name": "Flash Champion",
+        "type": "coins",
+        "amount": 12000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp11-0002",
+        "rank": 2,
+        "name": "Flash Runner",
+        "type": "bonus",
+        "amount": 1500,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T10:00:00.000Z",
+    "updatedAt": "2026-03-30T10:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0012-0000-0000-000000000012",
+    "title": "Quarter Finals Board",
+    "description": "End of quarter competition — who's on top?",
+    "startDate": "2026-03-20T00:00:00.000Z",
+    "endDate": "2026-03-31T23:59:59.000Z",
+    "status": "completed",
+    "scoringType": "points",
+    "maxParticipants": 80,
+    "prizes": [
+      {
+        "id": "lp12-0001",
+        "rank": 1,
+        "name": "Q1 Champion",
+        "type": "coins",
+        "amount": 30000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp12-0002",
+        "rank": 2,
+        "name": "Q1 Runner",
+        "type": "coins",
+        "amount": 15000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp12-0003",
+        "rank": 3,
+        "name": "Q1 Third",
+        "type": "freeSpin",
+        "amount": 30,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-15T09:00:00.000Z",
+    "updatedAt": "2026-03-31T23:59:59.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0013-0000-0000-000000000013",
+    "title": "Community Cup",
+    "description": "Players vote on the format, community decides the winner.",
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "endDate": "2026-05-24T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 250,
+    "prizes": [
+      {
+        "id": "lp13-0001",
+        "rank": 1,
+        "name": "Cup Gold",
+        "type": "coins",
+        "amount": 25000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp13-0002",
+        "rank": 2,
+        "name": "Cup Silver",
+        "type": "coins",
+        "amount": 10000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp13-0003",
+        "rank": 3,
+        "name": "Cup Bronze",
+        "type": "bonus",
+        "amount": 3000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp13-0004",
+        "rank": 4,
+        "name": "Participation Bonus",
+        "type": "freeSpin",
+        "amount": 5,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-28T12:00:00.000Z",
+    "updatedAt": "2026-03-28T12:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0014-0000-0000-000000000014",
+    "title": "High Stakes Wins Board",
+    "description": "Only high-bet wins count toward this leaderboard.",
+    "startDate": "2026-04-22T00:00:00.000Z",
+    "endDate": "2026-04-30T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "wins",
+    "maxParticipants": 40,
+    "prizes": [
+      {
+        "id": "lp14-0001",
+        "rank": 1,
+        "name": "High Roller Crown",
+        "type": "coins",
+        "amount": 80000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp14-0002",
+        "rank": 2,
+        "name": "High Roller Silver",
+        "type": "coins",
+        "amount": 30000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T11:00:00.000Z",
+    "updatedAt": "2026-03-30T11:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0015-0000-0000-000000000015",
+    "title": "Summer Kickoff League",
+    "description": "Kick off summer with the most competitive leaderboard yet.",
+    "startDate": "2026-06-15T00:00:00.000Z",
+    "endDate": "2026-06-30T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 300,
+    "prizes": [
+      {
+        "id": "lp15-0001",
+        "rank": 1,
+        "name": "Summer Gold",
+        "type": "coins",
+        "amount": 40000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp15-0002",
+        "rank": 2,
+        "name": "Summer Silver",
+        "type": "coins",
+        "amount": 20000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp15-0003",
+        "rank": 3,
+        "name": "Summer Bronze",
+        "type": "bonus",
+        "amount": 5000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T12:00:00.000Z",
+    "updatedAt": "2026-03-30T12:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0016-0000-0000-000000000016",
+    "title": "Loyalty Points Ladder",
+    "description": "Long-term players earn more points per game.",
+    "startDate": "2026-05-15T00:00:00.000Z",
+    "endDate": "2026-05-31T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 120,
+    "prizes": [
+      {
+        "id": "lp16-0001",
+        "rank": 1,
+        "name": "Loyalty Crown",
+        "type": "coins",
+        "amount": 35000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp16-0002",
+        "rank": 2,
+        "name": "Loyalty Silver",
+        "type": "freeSpin",
+        "amount": 75,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp16-0003",
+        "rank": 3,
+        "name": "Loyalty Bronze",
+        "type": "bonus",
+        "amount": 2500,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-29T15:00:00.000Z",
+    "updatedAt": "2026-03-29T15:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0017-0000-0000-000000000017",
+    "title": "Weekend Warriors League",
+    "description": "Only weekend play counts — who dominates Saturday and Sunday?",
+    "startDate": "2026-04-25T00:00:00.000Z",
+    "endDate": "2026-05-03T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "wins",
+    "maxParticipants": 90,
+    "prizes": [
+      {
+        "id": "lp17-0001",
+        "rank": 1,
+        "name": "Weekend King",
+        "type": "coins",
+        "amount": 18000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp17-0002",
+        "rank": 2,
+        "name": "Weekend Silver",
+        "type": "bonus",
+        "amount": 2000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T13:00:00.000Z",
+    "updatedAt": "2026-03-30T13:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0018-0000-0000-000000000018",
+    "title": "Spin Count Championship",
+    "description": "Most spins in the period wins — quantity over quality.",
+    "startDate": "2026-04-14T00:00:00.000Z",
+    "endDate": "2026-04-21T23:59:59.000Z",
+    "status": "active",
+    "scoringType": "wins",
+    "maxParticipants": 400,
+    "prizes": [
+      {
+        "id": "lp18-0001",
+        "rank": 1,
+        "name": "Spin King",
+        "type": "freeSpin",
+        "amount": 200,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp18-0002",
+        "rank": 2,
+        "name": "Spin Silver",
+        "type": "freeSpin",
+        "amount": 100,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp18-0003",
+        "rank": 3,
+        "name": "Spin Bronze",
+        "type": "freeSpin",
+        "amount": 50,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T14:00:00.000Z",
+    "updatedAt": "2026-03-30T14:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0019-0000-0000-000000000019",
+    "title": "February Frenzy Board",
+    "description": "Short month, big competition.",
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "endDate": "2026-02-28T23:59:59.000Z",
+    "status": "completed",
+    "scoringType": "points",
+    "maxParticipants": 60,
+    "prizes": [
+      {
+        "id": "lp19-0001",
+        "rank": 1,
+        "name": "Feb Champion",
+        "type": "coins",
+        "amount": 22000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp19-0002",
+        "rank": 2,
+        "name": "Feb Runner",
+        "type": "coins",
+        "amount": 8000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-01-28T09:00:00.000Z",
+    "updatedAt": "2026-02-28T23:59:59.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0020-0000-0000-000000000020",
+    "title": "Elite Points Masters",
+    "description": "By invitation only — the best of the best compete.",
+    "startDate": "2026-07-01T00:00:00.000Z",
+    "endDate": "2026-07-15T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 20,
+    "prizes": [
+      {
+        "id": "lp20-0001",
+        "rank": 1,
+        "name": "Elite Crown",
+        "type": "coins",
+        "amount": 200000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp20-0002",
+        "rank": 2,
+        "name": "Elite Silver",
+        "type": "coins",
+        "amount": 75000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp20-0003",
+        "rank": 3,
+        "name": "Elite Bronze",
+        "type": "bonus",
+        "amount": 20000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T15:00:00.000Z",
+    "updatedAt": "2026-03-30T15:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0021-0000-0000-000000000021",
+    "title": "Cancelled Wins Derby",
+    "description": "Cancelled after low sign-up numbers.",
+    "startDate": "2026-01-20T00:00:00.000Z",
+    "endDate": "2026-01-31T23:59:59.000Z",
+    "status": "cancelled",
+    "scoringType": "wins",
+    "maxParticipants": 50,
+    "prizes": [
+      {
+        "id": "lp21-0001",
+        "rank": 1,
+        "name": "Derby Gold",
+        "type": "coins",
+        "amount": 15000,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-01-15T08:00:00.000Z",
+    "updatedAt": "2026-01-21T10:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0022-0000-0000-000000000022",
+    "title": "All-Star Wins Ranking",
+    "description": "Track the all-stars across every game category.",
+    "startDate": "2026-06-05T00:00:00.000Z",
+    "endDate": "2026-06-20T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "wins",
+    "maxParticipants": 175,
+    "prizes": [
+      {
+        "id": "lp22-0001",
+        "rank": 1,
+        "name": "All-Star Gold",
+        "type": "coins",
+        "amount": 45000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp22-0002",
+        "rank": 2,
+        "name": "All-Star Silver",
+        "type": "coins",
+        "amount": 20000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp22-0003",
+        "rank": 3,
+        "name": "All-Star Bronze",
+        "type": "freeSpin",
+        "amount": 40,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T16:00:00.000Z",
+    "updatedAt": "2026-03-30T16:00:00.000Z"
+  },
+  {
+    "id": "l1a2b3c4-0023-0000-0000-000000000023",
+    "title": "Grand Year-End Board",
+    "description": "The ultimate annual leaderboard — save your best for last.",
+    "startDate": "2026-12-01T00:00:00.000Z",
+    "endDate": "2026-12-31T23:59:59.000Z",
+    "status": "draft",
+    "scoringType": "points",
+    "maxParticipants": 500,
+    "prizes": [
+      {
+        "id": "lp23-0001",
+        "rank": 1,
+        "name": "Year Champion",
+        "type": "coins",
+        "amount": 500000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp23-0002",
+        "rank": 2,
+        "name": "Year Silver",
+        "type": "coins",
+        "amount": 200000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp23-0003",
+        "rank": 3,
+        "name": "Year Bronze",
+        "type": "bonus",
+        "amount": 50000,
+        "imageUrl": ""
+      },
+      {
+        "id": "lp23-0004",
+        "rank": 4,
+        "name": "Top 10 Reward",
+        "type": "freeSpin",
+        "amount": 100,
+        "imageUrl": ""
+      }
+    ],
+    "createdAt": "2026-03-30T17:00:00.000Z",
+    "updatedAt": "2026-03-30T17:00:00.000Z"
   }
 ]
